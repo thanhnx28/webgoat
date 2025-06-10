@@ -18,7 +18,7 @@ pipeline {
                     coverity scan \
                     --project-dir $WORKSPACE \
                     --dir $WORKSPACE/idir \
-                    -c $COVERITY_CONFIG_PATH \
+                    -c /home/tiennv/cov-analysis-linux64-2025.3.0/bin \
                     --local-format html \
                     --local $WORKSPACE/results
                 '''
